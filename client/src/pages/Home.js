@@ -1,21 +1,20 @@
 import React from 'react';
-import Tweet from '../components/Tweet';
-import './Home.css';
+import { Card, CardContent, Typography, Divider, Button } from '@mui/material';
 
-function Home() {
-  const tweets = [
-    { id: 1, username: 'کاربر۱', content: 'این یک توییت نمونه است', likes: 10, retweets: 5 },
-    { id: 2, username: 'کاربر۲', content: 'توییت نمونه دیگر', likes: 15, retweets: 7 },
-  ];
-
+const Home = () => {
   return (
-    <div className="home">
-      <h2>صفحه اصلی</h2>
-      {tweets.map(tweet => (
-        <Tweet key={tweet.id} {...tweet} />
-      ))}
+    <div>
+      <Card style={{ marginBottom: '20px', borderRadius: '10px', boxShadow: '0 2px 10px rgba(0, 0, 0, 0.1)' }}>
+        <CardContent>
+          <Typography variant="h5">Tweet Title</Typography>
+          <Typography color="textSecondary">This is a sample tweet content.</Typography>
+          <Button size="small" color="primary" style={{ marginTop: '10px' }}>Like</Button>
+          <Button size="small" color="secondary" style={{ marginLeft: '10px' }}>Reply</Button>
+        </CardContent>
+      </Card>
+      <Divider />
     </div>
   );
-}
+};
 
 export default Home;
