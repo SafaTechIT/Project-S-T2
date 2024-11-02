@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, TextField, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const Header = () => {
   return (
@@ -15,15 +16,21 @@ const Header = () => {
           size="small"
           style={{ marginRight: '20px' }}
         />
-        <Link to="/" style={{ textDecoration: 'none' }}>
-          <Button color="inherit">Home</Button>
-        </Link>
-        <Link to="/profile" style={{ textDecoration: 'none' }}>
-          <Button color="inherit">Profile</Button>
-        </Link>
-        <Link to="/notifications" style={{ textDecoration: 'none' }}>
-          <Button color="inherit">Notifications</Button>
-        </Link>
+        <motion.div whileHover={{ scale: 1.1 }}>
+          <Link to="/" style={{ textDecoration: 'none' }}>
+            <Button color="inherit">Home</Button>
+          </Link>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.1 }}>
+          <Link to="/profile" style={{ textDecoration: 'none' }}>
+            <Button color="inherit">Profile</Button>
+          </Link>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.1 }}>
+          <Link to="/notifications" style={{ textDecoration: 'none' }}>
+            <Button color="inherit">Notifications</Button>
+          </Link>
+        </motion.div>
       </Toolbar>
     </AppBar>
   );
