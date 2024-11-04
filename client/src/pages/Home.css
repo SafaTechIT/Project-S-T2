@@ -1,0 +1,65 @@
+.home-container {
+  margin-left: 250px; /* فاصله از نوار کناری */
+  margin-top: -18px; /* فاصله از نوار ناوبری */
+  width: calc(100% - 250px); /* عرض برابر با عرض صفحه منهای عرض نوار کناری */
+  height: calc(100vh - 64px); /* ارتفاع برابر با ارتفاع صفحه منهای ارتفاع نوار ناوبری */
+  overflow-y: auto; /* اضافه کردن اسکرول اگر محتوا زیاد باشد */
+  padding: 20px; /* فاصله داخلی */
+}
+
+.tweet-box {
+  background-color: #ffffff; /* رنگ پس‌زمینه جعبه توییت */
+  border-radius: 8px; /* گوشه‌های گرد */
+  padding: 15px; /* فاصله داخلی */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
+  margin-bottom: 20px; /* فاصله از توییت‌ها */
+}
+
+.tweet-input {
+  width: 100%; /* عرض کامل */
+  border: none; /* حذف مرز */
+  outline: none; /* حذف حاشیه */
+  resize: none; /* جلوگیری از تغییر اندازه */
+  height: 80px; /* ارتفاع مشخص */
+  font-size: 16px; /* اندازه فونت */
+}
+
+.tweet-button {
+  background-color: #1DA1F2; /* رنگ دکمه */
+  color: white; /* رنگ متن دکمه */
+  border: none; /* حذف مرز */
+  border-radius: 20px; /* گوشه‌های گرد */
+  padding: 10px 20px; /* فاصله داخلی */
+  cursor: pointer; /* نشانگر ماوس به شکل دست */
+  font-weight: bold; /* ضخامت متن دکمه */
+  transition: background-color 0.2s; /* تغییر رنگ با انیمیشن */
+}
+
+.tweet-button:hover {
+  background-color: #1991DB; /* رنگ دکمه در حالت هاور */
+}
+
+.tweets-list {
+  margin-top: 20px; /* فاصله از جعبه توییت */
+}
+
+.tweet-item {
+  background-color: #ffffff; /* رنگ پس‌زمینه توییت */
+  border-radius: 8px; /* گوشه‌های گرد */
+  padding: 15px; /* فاصله داخلی */
+  margin-bottom: 10px; /* فاصله بین توییت‌ها */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
+}
+
+.tweet-user {
+  font-weight: bold; /* کاربر با فونت بولد */
+}
+
+.tweet-content {
+  margin: 10px 0; /* فاصله بین محتوا و سایر عناصر */
+}
+
+.tweet-time {
+  font-size: 12px; /* اندازه کوچک‌تر برای زمان */
+  color: #aab8c2; /* رنگ خاکستری برای زمان */
+}

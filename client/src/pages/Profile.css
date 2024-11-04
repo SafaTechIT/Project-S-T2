@@ -1,0 +1,104 @@
+body {
+font-family: 'Vazir', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e6ecf0;
+}
+
+.profile-container {
+  margin-left: 250px; /* فاصله از نوار کناری */
+  margin-top: -18px; /* فاصله از نوار ناوبری */
+  width: calc(100% - 250px); /* عرض برابر با عرض صفحه منهای عرض نوار کناری */
+  height: calc(100vh - 64px); /* ارتفاع برابر با ارتفاع صفحه منهای ارتفاع نوار ناوبری */
+  overflow-y: auto; /* اضافه کردن اسکرول اگر محتوا زیاد باشد */
+  padding: 20px; /* فاصله داخلی */
+}
+ 
+.header {
+    background-color: #1da1f2;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.banner {
+    height: 200px;
+    background-color: #f5f8fa;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    margin-top: -60px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.profile-details {
+    flex-grow: 1;
+}
+
+.profile-details h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-details p {
+    margin: 5px 0;
+    color: #657786;
+}
+
+.bio {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #e1e8ed;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h4 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.tweets {
+    margin-top: 20px;
+}
+
+.tweet {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.tweet h4 {
+    margin: 0 0 5px;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #657786;
+}

@@ -1,0 +1,11 @@
+.tweet {
+    border: 1px solid #e1e8ed;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .tweet-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
