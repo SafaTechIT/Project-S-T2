@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Container, CssBaseline } from '@mui/material';
 import { AnimatePresence, motion } from 'framer-motion';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
@@ -13,8 +13,8 @@ function App() {
     <Router>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header />
-        <div style={{ display: 'flex', padding: '20px' }}>
+        <Navbar />
+        <div className='main-content' style={{ display: 'flex', padding: '20px' }}>
           <Sidebar />
           <main style={{ flex: 1 }}>
             <AnimatePresence>

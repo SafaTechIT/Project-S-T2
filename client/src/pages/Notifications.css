@@ -1,4 +1,46 @@
-.notifications {
-    flex: 1;
-    padding: 20px;
-  }
+.notifications-container {
+  margin-left: 250px; /* فاصله از نوار کناری */
+  margin-top: -18px; /* فاصله از نوار ناوبری */
+  width: calc(100% - 250px); /* عرض برابر با عرض صفحه منهای عرض نوار کناری */
+  height: calc(100vh - 64px); /* ارتفاع برابر با ارتفاع صفحه منهای ارتفاع نوار ناوبری */
+  overflow-y: auto; /* اضافه کردن اسکرول اگر محتوا زیاد باشد */
+  padding: 20px; /* فاصله داخلی */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.notifications-list {
+  background-color: #fff; /* رنگ پس‌زمینه لیست اعلان‌ها */
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* سایه برای زیبایی */
+  overflow: hidden; /* برای جلوگیری از overflow */
+}
+
+.notification-item {
+  padding: 15px;
+  border-bottom: 1px solid #e1e8ed; /* خط جداکننده بین اعلان‌ها */
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* فاصله بین محتوا */
+}
+
+.notification-item:last-child {
+  border-bottom: none; /* حذف خط جداکننده آخرین اعلان */
+}
+
+.notification-user {
+  font-weight: bold; /* کاربر با فونت بولد */
+}
+
+.notification-action {
+  margin: 0 10px; /* فاصله بین نام کاربر و اکشن */
+  color: #657786; /* رنگ متن اکشن */
+}
+
+.notification-time {
+  font-size: 12px; /* اندازه کوچک‌تر برای زمان */
+  color: #aab8c2; /* رنگ خاکستری برای زمان */
+}

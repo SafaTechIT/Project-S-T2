@@ -1,0 +1,57 @@
+.navbar {
+  margin-left: 20px; /* فاصله از نوار کناری */
+  margin-top: -63px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* فاصله بین لوگو و لینک‌ها */
+  background-color: #ffffff; /* رنگ پس‌زمینه نوار ناوبری */
+  border-bottom: 1px solid #e1e8ed; /* خط زیر نوار */
+  padding: 10px 20px; /* فاصله داخلی */
+  position: fixed; /* ثابت کردن نوار در بالای صفحه */
+  width: calc(100% - 248px); /* عرض کامل */
+  z-index: 1000; /* اطمینان از اینکه در بالای سایر عناصر قرار گیرد */
+}
+
+.navbar-logo {
+  font-size: 24px; /* اندازه فونت برای لوگو */
+  font-weight: bold; /* بولد کردن متن */
+  color: #1DA1F2; /* رنگ لوگو */
+}
+
+.navbar-links {
+  display: flex; /* نمایش لینک‌ها به صورت افقی */
+  flex-grow: 1; /* امکان رشد فضای بین لینک‌ها */
+  justify-content: center; /* مرکز چین کردن لینک‌ها */
+}
+
+.navbar-link {
+  margin: 0 20px; /* فاصله بین لینک‌ها */
+  text-decoration: none; /* حذف خط زیر لینک */
+  color: #657786; /* رنگ لینک */
+  font-weight: 500; /* ضخامت متن لینک */
+  transition: color 0.2s; /* تغییر رنگ با انیمیشن */
+}
+
+.navbar-link:hover {
+  color: #1DA1F2; /* رنگ لینک در حالت هاور */
+}
+
+.navbar-button {
+  background-color: #1DA1F2; /* رنگ دکمه */
+  color: white; /* رنگ متن دکمه */
+  border: none; /* حذف مرز */
+  border-radius: 20px; /* گوشه‌های گرد */
+  padding: 10px 20px; /* فاصله داخلی */
+  cursor: pointer; /* نشانگر ماوس به شکل دست */
+  font-weight: bold; /* ضخامت متن دکمه */
+  transition: background-color 0.2s; /* تغییر رنگ با انیمیشن */
+}
+
+.navbar-button:hover {
+  background-color: #1991DB; /* رنگ دکمه در حالت هاور */
+}
+
+/* اضافه کردن مارجین بالایی به محتوای اصلی */
+.main-content {
+  margin-top: 64px; /* فاصله از نوار ناوبری */
+}
