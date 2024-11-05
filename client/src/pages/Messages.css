@@ -61,16 +61,16 @@
 }
 
 .send-button {
-    background-color: #1DA1F2; /* رنگ دکمه */
-    color: white; /* رنگ متن دکمه */
-    border: none; /* حذف مرز */
-    border-radius: 20px; /* گوشه‌های گرد */
-    padding: 10px 20px; /* فاصله داخلی */
-    cursor: pointer; /* نشانگر ماوس به شکل دست */
-    font-weight: bold; /* ضخامت متن دکمه */
-    transition: background-color 0.2s; /* تغییر رنگ با انیمیشن */
+    background-color: #1DA1F2; 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: background-color 0.2s; 
 }
 
 .send-button:hover {
-    background-color: #1991DB; /* رنگ دکمه در حالت هاور */
+    background-color: #1991DB; 
 }
