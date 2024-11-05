@@ -6,22 +6,18 @@ body {
     padding: 0;
     transition: background-color 0.3s;
 }
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-family: 'Vazir', sans-serif; /* اضافه کردن فونت وزیر به عناوین */
 }
-
 button {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     font-family: 'Vazir', sans-serif; /* اضافه کردن فونت وزیر به دکمه‌ها */
 }
-
 button:hover {
     transform: scale(1.05);
 }
-
 a {
     text-decoration: none;
     font-family: 'Vazir', sans-serif; /* اضافه کردن فونت وزیر به لینک‌ها */

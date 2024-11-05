@@ -1,46 +1,32 @@
 import React from 'react';
 import './Profile.css';
 
-<<<<<<< HEAD
-function Profile() {
-  return (
-    <div className="profile">
-      <h2>پروفایل</h2>
-      <img src="avatar.jpg" alt="عکس پروفایل" />
-      <h3>نام کاربری</h3>
-      <p>بیوگرافی کاربر</p>
-      <p>تعداد فالوورها: 1000</p>
-      <p>تعداد فالووینگ‌ها: 500</p>
-    </div>
-  );
-}
-=======
 const Profile = () => {
     return (
         <div className="profile-container">
             <div className="header">
-                <h1>نام کاربری</h1>
+                <h1>گروه سلمان فارسی</h1>
             </div>
             <div className="banner">
-                {/* بنر پروفایل */}
+                <img src="https://uploadkon.ir/uploads/637605_2427-0x0.jpg" alt="Banner" className="banner-image" />
             </div>
             <div className="profile-info">
-                <img src="https://via.placeholder.com/120" alt="Profile" className="profile-picture" />
+                <img src="https://uploadkon.ir/uploads/1f9405_24لوگو-گروه-4-فیروزه-ای.png" alt="Profile" className="profile-picture" />
                 <div className="profile-details">
-                    <h2>نام و نام خانوادگی</h2>
-                    <p>@username</p>
-                    <p className="bio">این یک بیوگرافی نمونه است. اطلاعات بیشتری درباره من اینجا قرار دارد.</p>
+                    <h2>صفا 27</h2>
+                    <p>@Salman_Farsi</p>
+                    <p className="bio">این کاری از بخش فرانت تیم 2 گروه برنامه نویسی سلمان است</p>
                     <div className="stats">
                         <div className="stat">
-                            <h4>100</h4>
+                            <h4>1.438 K</h4>
                             <p>توییت‌ها</p>
                         </div>
                         <div className="stat">
-                            <h4>200</h4>
+                            <h4>27.2 M</h4>
                             <p>فالوورها</p>
                         </div>
                         <div className="stat">
-                            <h4>150</h4>
+                            <h4>20</h4>
                             <p>فالووینگ</p>
                         </div>
                     </div>
@@ -63,6 +49,5 @@ const Profile = () => {
         </div>
     );
 };
->>>>>>> dev
 
 export default Profile;

@@ -1,19 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-<<<<<<< HEAD
-import './Sidebar.css';
-
-function Sidebar() {
-  return (
-    <div className="sidebar">
-      <Link to="/">خانه</Link>
-      <Link to="/profile">پروفایل</Link>
-      <Link to="/notifications">اعلان‌ها</Link>
-      <button>توییت جدید</button>
-    </div>
-  );
-}
-=======
 import './Sidebar.css'; // استایل‌های مربوط به نوار کناری
 
 const Sidebar = () => {
@@ -52,6 +38,5 @@ const Sidebar = () => {
         </div>
     );
 };
->>>>>>> dev
 
 export default Sidebar;
