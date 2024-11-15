@@ -6,12 +6,12 @@ font-family: 'Vazir', sans-serif;
 }
 
 .profile-container {
-  margin-left: 250px; /* فاصله از نوار کناری */
-  margin-top: -18px; /* فاصله از نوار ناوبری */
-  width: calc(100% - 250px); /* عرض برابر با عرض صفحه منهای عرض نوار کناری */
-  height: calc(100vh - 64px); /* ارتفاع برابر با ارتفاع صفحه منهای ارتفاع نوار ناوبری */
-  overflow-y: auto; /* اضافه کردن اسکرول اگر محتوا زیاد باشد */
-  padding: 20px; /* فاصله داخلی */
+  margin-left: 250px; 
+  margin-top: -18px; 
+  width: calc(100% - 250px); 
+  height: calc(100vh - 64px); 
+  overflow-y: auto; 
+  padding: 20px; 
 }
  
 .header {

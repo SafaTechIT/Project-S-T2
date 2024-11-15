@@ -11,7 +11,7 @@ const Profile = () => {
                 <img src="https://uploadkon.ir/uploads/637605_2427-0x0.jpg" alt="Banner" className="banner-image" />
             </div>
             <div className="profile-info">
-                <img src="https://uploadkon.ir/uploads/1f9405_24لوگو-گروه-4-فیروزه-ای.png" alt="Profile" className="profile-picture" />
+                <img src="https://uploadkon.ir/uploads/1c7915_2446bdb80e-28d6-4428-b2e8-5b70d2a78f43.png" alt="Profile" className="profile-picture" />
                 <div className="profile-details">
                     <h2>صفا 27</h2>
                     <p>@Salman_Farsi</p>

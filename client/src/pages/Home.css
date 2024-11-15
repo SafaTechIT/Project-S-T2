@@ -63,3 +63,67 @@
   font-size: 12px; /* اندازه کوچک‌تر برای زمان */
   color: #aab8c2; /* رنگ خاکستری برای زمان */
 }
+
+.tweet-like-button {
+  background: none; /* حذف پس‌زمینه */
+  border: none; /* حذف مرز */
+  color: black; /* رنگ متن */
+  font-size: 16px; /* اندازه فونت */
+  cursor: pointer; /* نشانگر ماوس به شکل دست */
+  margin-right: 10px; /* فاصله از سایر عناصر */
+}
+
+.comment-toggle-button {
+  background-color: #1DA1F2; /* رنگ دکمه کامنت */
+  color: white; /* رنگ متن دکمه */
+  border: none; /* حذف مرز */
+  border-radius: 20px; /* گوشه‌های گرد */
+  padding: 5px 10px; /* فاصله داخلی */
+  cursor: pointer; /* نشانگر ماوس به شکل دست */
+  font-weight: bold; /* ضخامت متن دکمه */
+  transition: background-color 0.2s; /* تغییر رنگ با انیمیشن */
+}
+
+.comment-toggle-button:hover {
+  background-color: #1991DB; /* رنگ دکمه در حالت هاور */
+}
+
+.comment-input-container {
+  display: flex; /* استفاده از فلکس برای ورودی کامنت */
+  margin-top: 10px; /* فاصله از دکمه کامنت */
+}
+
+.comment-input {
+  width: 100%; /* عرض کامل */
+  border: 1px solid #ccc; /* مرز خاکستری */
+  border-radius: 4px; /* گوشه‌های گرد */
+  padding: 10px; /* فاصله داخلی */
+  font-size: 14px; /* اندازه فونت */
+}
+
+.comment-button {
+  background-color: #1DA1F2; /* رنگ دکمه ارسال نظر */
+  color: white; /* رنگ متن دکمه */
+  border: none; /* حذف مرز */
+  border-radius: 20px; /* گوشه‌های گرد */
+  padding: 5px 15px; /* فاصله داخلی */
+  cursor: pointer; /* نشانگر ماوس به شکل دست */
+  font-weight: bold; /* ضخامت متن دکمه */
+  margin-left: 10px; /* فاصله از ورودی کامنت */
+}
+
+.comment-button:hover {
+  background-color: #1991DB; /* رنگ دکمه در حالت هاور */
+}
+
+.comments-list {
+  margin-top: 10px; /* فاصله از ورودی کامنت */
+  padding-left: 20px; /* فاصله از سمت چپ */
+  list-style-type: none; /* حذف علامت لیست */
+}
+
+.comment-item {
+  font-size: 14px; /* اندازه فونت کامنت */
+  color: #555; /* رنگ خاکستری برای کامنت‌ها */
+  margin-bottom: 5px; /* فاصله بین کامنت‌ها */
+}

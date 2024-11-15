@@ -5,7 +5,7 @@ import './Sidebar.css'; // استایل‌های مربوط به نوار کنا
 const Sidebar = () => {
     return (
         <div className="sidebar">
-            <h2 className="logo">S</h2>
+            <h2 className="logo">شبکه اجتماعی سلمان</h2>
             <Link to="/" className="sidebar-option">
                 <i className="fas fa-home"></i>
                 <span>خانه</span>
